@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.orab-turuvchi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+li {
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.tugma {
+    display: flex;
+    align-items: center;
+}
+
+.tugma1 {
+    background-color: white;
+    border: 2px solid red;
+    padding: 10px 35px;
+    color: red;
+    border-radius: 7px;
+}
+
+.ko {
+    color: white;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+    margin-right: 27px;
+}
+
+
+.imt {
+    width: 150px;
+    height: 50px;
+}
+
+.rasm {
+    display: flex;
+    background-image: url(https://s3-alpha-sig.figma.com/img/8d77/a05a/ae0b5a86186ed1ee3cd1a093fd90802f?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BS6LIsXYgfDEeKSuuT2OrUDtfJk0fp7m6qsZB1AmHX51BNWZOSP7KnsGj4M5Z2w~6o0FrZfSI02U5PFlsyweRu2If9RSIsZ1q7Ht4qgaLbhVl7UAo1nBWRZDTMUnxVU4LZis7i4qSAHFDk3tncgtOPG3iMrystqNteQm0K7Mm2vi2BjZqA3zg1M~HORP3ct0lO3l~LcGygVGhXSloYuCYZT2HsH36AoDi4ImjIvj-cE-YO-fJ1Hn-DgjsU6~ZL3uWkHyxfBkMjApxPMmxsVP2vDktL82H8HoWtNmOv-b12XG6vkZdsOIVdFK59HQJUfbkSmj12w6WRyiUZ92Fc2XYw__);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    color: white;
+
+}
+
+
+.text {
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
+.odam {
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.tugma2 {
+    margin-top: 50px;
+    background-color: #DE2E54CC;
+    border: none;
+    color: white;
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+
+.bola {
+    margin-left: 250px;
+    display: flex;
+    margin-top: 100px;
+    gap: 35px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.rasm1 {
+    width: 350px;
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.text2 {
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.rasm2 {
+    width: 350px;
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+}
+
+.rasm3 {
+    width: 350px;
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+}
+
+.bola2 {
+    display: flex;
+    gap: 55px;
+    position: absolute;
+    top: 1525px;
+    left: 190px;
+}
+
+.bola3 {
+    height: 750px;
+    display: flex;
+    background-color: #0EB4C1;
+}
+
+iframe {
+    margin-top: 200px;
+    margin-left: 190px;
+    border: none;
+    width: 530px;
+    border-radius: 20px;
+}
+
+.pop1 {
+    height: 450px;
+    width: 530px;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 20px;
+}
+
+input {
+    margin-left: 25px;
+    margin-top: 35px;
+    width: 450px;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid gray;
+}
+
+.tugma3 {
+    width: 480px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #38CC8B;
+    color: white;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+input {
+    padding-left: 25px;
+}
+
+
+
+.navbar2 {
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+
+.bola4 {
+    padding-top: 25px;
+    padding-left: 250px;
+}
+
+.opa {
+    padding-top: 60px;
+    color: white;
+}
+
+.op {
+    padding-top: 40px;
+    padding-left: 256px;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    transition: 1s;
+    cursor: pointer;
+}
+
+input:hover {
+    cursor: pointer;
+    border: 3px solid #5E54A4;
+}
